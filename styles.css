@@ -1,5 +1,6 @@
 body {
 	background: #666699;
+	display: table;
 }
 
 #crossing-the-delaware {
@@ -11,14 +12,34 @@ img {
 	border-color: green;
 	padding: 10px;
 }
+h2 {
+	font-family: "Courier New";
+	text-align: center;
+}
+.text-margin {
+	margin: 20px;
+}
+article {
+	text-align: center;
+	background: url(Images/turtle_texture1.jpg);
+	color: green;
+	font-weight: bold;
+	display: table-cell;
+}
+a:visited {
+	color: #6600cc;
+}
+#table-col-2 {
+	display: table-cell;
+}
 
 /*
-Padding and border added to at least one element
-Margin added to at least one element
-At least one centered element (a footer message can be nice for this)
+Padding and border added to at least one element - DONE
+Margin added to at least one element - DONE
+At least one centered element (a footer message can be nice for this) - DONE
 A background image on at least one element
-A different font on at least one element
-A few elements styled using a class
-A different color for visited links
-An element styled with an ID
+A different font on at least one element - DONE
+A few elements styled using a class - DONE
+A different color for visited links - DONE
+An element styled with an ID - DONE
 */
