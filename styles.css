@@ -1,3 +1,62 @@
 body {
-	background: grey;
+	background: #d1d1e0;
+	display: table;
 }
+/*An element styled with an ID - DONE*/
+/*At least one centered element (a footer message can be nice for this) - DONE*/
+#crossing-the-delaware {
+	text-align: center;
+}
+/*Padding and border added to at least one element - DONE*/
+img {
+	border: 5px;
+	border-style: ridge;
+	border-color: #ffffcc;
+	padding: 10px;
+}
+/*A different font on at least one element - DONE*/
+h2 {
+	font-family: "Courier New";
+	text-align: center;
+}
+h1 {
+	text-align: center;
+}
+/*Margin added to at least one element - DONE*/
+p {
+	margin: 20px;
+}
+/*A background image on at least one element - DONE*/
+article {
+	text-align: center;
+	background: url(Images/turtle_texture1.jpg);
+	color: #ffffff;
+	font-weight: bold;
+	padding: 5px;
+}
+/*A different color for visited links - DONE*/
+a:visited {
+	color: #6600cc;
+}
+/*A few elements styled using a class - DONE*/
+.table-col {
+	display: table-cell;
+}
+@media screen and (max-width: 900px){
+	body {
+		display: block;
+	}
+	.table-col {
+		display: block;
+		max-width: 800px;
+	}
+	img {
+		width: 75%;
+	}
+}
+
+
+
+
+
+
