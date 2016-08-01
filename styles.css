@@ -39,19 +39,51 @@ a:visited {
 	color: #6600cc;
 }
 /*A few elements styled using a class - DONE*/
-.table-col {
+.table-col-1 {
 	display: table-cell;
+	width:182px;
+	height: 900px;
+	margin: 15px auto;
+	position: fixed;
+	margin-top: 40px;
 }
-@media screen and (max-width: 900px){
+.table-col-2 {
+	display: table-cell;
+	position: relative;
+	padding-left: 250px;
+}
+#sidebar {
+	width:175px;
+	height: 900px;
+	margin: 15px auto;
+	position: fixed;
+	margin-top: 300px;
+}
+@media screen and (max-width: 986px){
 	body {
 		display: block;
 	}
-	.table-col {
+	.table-col-2 {
 		display: block;
 		max-width: 800px;
+		padding-left: 0px;
 	}
 	img {
 		width: 75%;
+	}
+	.table-col-1 {
+		display: block;
+		width: auto;
+		height: auto;
+		position: relative;
+	}
+	#sidebar {
+		display: block;
+		min-width: 100px;
+		position: relative;
+		width: auto;
+		height: auto;
+		margin-top: auto;
 	}
 }
 
