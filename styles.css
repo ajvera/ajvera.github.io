@@ -1,5 +1,5 @@
 body {
-	background: #d1d1e0;
+	background: #987d67;
 	display: table;
 }
 /*An element styled with an ID - DONE*/
@@ -9,10 +9,10 @@ body {
 }
 /*Padding and border added to at least one element - DONE*/
 img {
-	border: 5px;
-	border-style: ridge;
-	border-color: #ffffcc;
-	padding: 10px;
+	border: 20px;
+	border-style: groove;
+	border-color: #699596;
+	padding: 5px;
 }
 /*A different font on at least one element - DONE*/
 h2 {
@@ -69,7 +69,8 @@ a:visited {
 		padding-left: 0px;
 	}
 	img {
-		width: 75%;
+		width: 85%;
+		min
 	}
 	.table-col-1 {
 		display: block;
